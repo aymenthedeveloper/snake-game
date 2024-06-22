@@ -78,6 +78,7 @@ function moveSnake(){
   if (snake[0].y < 0){snake[0].y = 380}
   if (snake[0].x == foodX && snake[0].y == foodY) {
     score++
+    scoreContainer.textContent = score;
     createFood()
   } else {
     snake.pop()

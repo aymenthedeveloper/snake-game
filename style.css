@@ -15,6 +15,10 @@ body{
 .gameContainer .btns :nth-child(1).score{
   font-size: 1rem;
   border-radius: 2px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2px;
 }
 
 .gameContainer .btns{
